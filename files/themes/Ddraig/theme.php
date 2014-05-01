@@ -103,9 +103,8 @@ $links = showsublinks("","link");
 
 //Subfooter	
 	echo "<div id='subfooter'>";			
-	echo "<div id='copyright'><div class='flleft'><img width='40' src='".THEME."images/8ight.png' alt='Logo' /></div><div class='flleft' style='width: 40%; padding-left: 10px'>".(!$license ? showcopyright() : "")."<br />Theme designed by <a href='http://www.php-fusion.co.uk'>JoiNNN</a></div>";
-	echo "<div class='flright alright' style='width: 40%;'>".stripslashes($settings['footer'])."</div></div>";
-	
+	echo "<div id='copyright'><div class='flleft' style='width: 40%; padding-left: 10px'>"."<br />Tema dise&ntilde;ado por <a href='#'>Feche</a></div>";
+		
 	echo "<div class='subfooter clearfix'>";
 	echo "<div class='flleft' style='width: 50%'>";
 			if ($settings['rendertime_enabled'] == 1 || ($settings['rendertime_enabled'] == 2 && iADMIN)) {echo showrendertime();}
